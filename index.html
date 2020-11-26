@@ -1,14 +1,106 @@
-<!doctype html>
-<html>
+<!DOCTYPE HTML>
+<!-- TODO
+- Verify no JS still looks good
+- Verify mobile
+- Preloaded APLphys simulation!
+- Selected sound clouds
+- Selected APL snippets
+-->
+<html lang="en">
 	<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1"/>
-	<link rel="icon" href="/img/favicon.png" sizes="64x64">
-	<title>
-	RikedyP.UK
-	</title>
-</head>
-<body>
-	<h1>RikedyP.UK</h1>
-</body>
+		<title>RikedyPortfolio</title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="icon" href="favicon.svg">
+		<link rel="stylesheet" href="flickity/flickity.css" media="screen">
+		<script src="APLPhys/posQ.js"></script>
+		<script src="APLPhys/posQ0.js"></script>
+		<script src="APLPhys/posQ1.js"></script>
+		<script src="APLPhys/posQ2.js"></script>
+		<script src="APLPhys/posQ3.js"></script>
+		<script src="APLPhys/posQ4.js"></script>
+		<script src="APLPhys/render.js"></script>
+		<script src="script.js"></script>
+		<script src="flickity/flickity.pkgd.js"></script>
+		
+	</head>
+	<body>		
+		<center><p><img src="img/Logo.svg" width="30%"></p></center>
+		
+		<!-- <br /><br /> -->
+		<!-- <hr /> -->
+		<!-- <br /><br /> -->
+						
+		<!-- <div class="ap-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "wrapAround": true, "accessibility": true}'> -->
+			<!-- <div class="carousel-cell"> -->
+				<!-- <canvas id="vp0" class="viewport"></canvas> -->
+			<!-- </div> -->
+			<!-- <div class="carousel-cell"> -->
+				<!-- <canvas id="vp1" class="viewport"></canvas> -->
+			<!-- </div> -->
+		<!-- </div> -->
+		
+		<!-- <br /><br /> -->
+		<hr />
+		<br /><br />
+		
+		<div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "wrapAround": true, "accessibility": true}'>
+			<div class="carousel-cell">
+				<img src="img/clouds.jpg" alt="Clouds by RikedyP" />	
+			</div>
+			<div class="carousel-cell">
+				<img src="img/aboat.jpg" alt="A Boat by RikedyP" />
+			</div>
+			<div class="carousel-cell">
+				<img src="img/brandon.jpg" alt="Brandon by RikedyP" />
+			</div>
+			<div class="carousel-cell">
+				<img src="img/nails.jpg" alt="Nails by RikedyP" />
+			</div> 
+		</div>
+		
+		<br /><br />
+		<hr />
+		
+		<div class="iconPanel">
+			<div>
+				<a href="https://github.com/rikedyp/">
+					<img src="img/GitHub-Mark-Light-120px-plus.png" alt="GitHub Logo" />
+				</a>
+				<h3 class="label">GitHub</h3>
+			</div>
+			<div>
+				<a href="https://deviantart.com/rikedyp/">
+					<img src="img/DeviantArt_Mark_white_1.png" alt="DeviantArt Logo" />
+				</a>
+				<h3 class="label">DeviantArt</h3>
+			</div>
+			<div>
+				<a href="https://instagram.com/rikedyp/">
+					<img src="img/ig-logo-white.svg" alt="Instagram Logo" />
+				</a>
+				<h3 class="label">Instagram</h3>
+			</div>
+		</div>
+		<div class="iconPanel">
+			<div>
+				<a href="https://www.youtube.com/channel/UCOx-h5m9MeV14rG4PicRB7g">
+					<img src="img/yt_icon_mono_dark.png" alt="YouTube Logo" />
+				</a>
+				<h3 class="label">YouTube</h3>
+			</div>
+			<div>
+				<a href="https://dyalog.com">
+					<img src="img/DyAPL.png" alt="Dyalog Logo"/>	
+				</a>
+				<h3 class="label">Dyalog</h3>
+			</div>
+			<div>
+				<a href="https://soundcloud.com/rikedyp">
+					<img src="img/SoundCloud.png" alt="SoundCloud Logo" />
+				</a>
+				<h3 class="label">SoundCloud</h3>
+			</div>
+		</div>
+	</body>
 </html>
