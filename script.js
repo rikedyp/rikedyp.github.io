@@ -23,11 +23,23 @@ var tDelay = 3000;
 // Image slideshow parameters
 var slideIndex = 1;
 
+// jQ-esque helpers
+$=s=>document.querySelector(s)
+$$=s=>document.querySelectorAll(s)
+
 // Wait for page to load. Set up & trigger BG colour transitions. Show first image slide.
 window.onload = function() {  
   // document.body.style.transition = "background " + tTime + "s";
   var intervalID = window.setInterval(bgFade, tDelay);
-  startStop();
+  // startStop();
+	var flkty = new Flickity( $(".main-carousel"), {
+		// options
+		cellAlign: 'left',
+		contain: true,
+		wrapAround: true,
+		accessibility: true,
+		lazyLoad: 3
+	});
 }
 
 rndCol = function(list) {

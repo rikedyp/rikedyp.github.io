@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Ffx";
-  src: url('/assets/FairfaxHD.ttf');
+  src: local('Fairfax HD'),url('/assets/FairfaxHD.ttf');
 }
 @font-face {
   font-family: "Righteous";
@@ -10,12 +10,18 @@
 body{
   background: #1b998b; 
   transition: background 3s ease;
-  font-family: "Ffx",Courier, Bookman, Helvetica Neue, Helvetica, Arial;
+  font-family: Ffx, Courier, Bookman, Helvetica Neue, Helvetica, Arial;
   color: white;
   text-decoration: none;
   overflow-x: hidden;
   height: 100%
   font-size: 1.3em;
+}
+a {
+	color:white;
+}
+a:hover {
+	font-weight: bold;
 }
 #RPHome {
 	width: 10vw;
@@ -58,7 +64,7 @@ h3 {
 .iconPanel {
   text-align: justify;
   /* border-top: solid 30px; */
-  margin: 30px 4vw 0 4vw;
+  margin: 30px 80px;
 }
 .iconPanel div {
   text-align: center;
